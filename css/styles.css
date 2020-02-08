@@ -1,0 +1,196 @@
+@keyframes cloudy1 {
+    0% {opacity: 100;
+    transform: translateX(10px);} 
+    100% {opacity: 0; transform: translateX(2000px);}
+
+}
+@keyframes cloudy2 {
+    0% {opacity: 100;
+    transform: translate(1px);} 
+    100% {opacity: 0; transform: translateX(-2000px);}
+
+}
+@keyframes cloudy3 {
+    0% {opacity: 100;
+    transform: translate(100px);} 
+    100% {opacity: 0; transform: translateX(-2000px);}
+
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+    font-family: "Merri";
+}
+
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+    font-family: "Mont";
+}
+
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sac";
+}
+#cloud1 {
+    margin-top: 100px;
+    animation: cloudy1 100s ease-out normal;
+    opacity: 0;
+
+}
+#cloud2 {
+    animation: cloudy2 100s ease-out normal;
+    float: right;
+    opacity: 0;
+}
+#cloud3 {
+    position: relative;
+    animation: cloudy3 100s ease-out normal;
+    left: 5%;
+    bottom: 100px;
+}
+#mountain{
+    position: relative;
+    left: 28%;
+}
+#profile1{
+    margin-top: 10%;
+    position: relative;
+    left: 43%;
+    border: 3px solid lightskyblue;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+#intindihin{
+    position: relative;
+    left: 35%;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+#home{
+    position: relative;
+    left: 35%;
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+}
+#location{
+    position: relative;
+    left: 35%;
+    height: 50px;
+    width: 50px;
+}
+#time{
+    position: relative;
+    left: 35%;
+    height: 50px;
+    width: 50px;
+}
+.info1{
+    text-align: center;
+    font-family: Merri;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 1px;
+}
+.lives{
+    text-align: center;
+    font-family: Merri;
+    font-size: 15px;
+    font-style: normal;
+    height: 30px;
+}
+.about:hover{
+    background-color: blue;
+    color: white;
+}
+.about{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#head{
+    background-color: dodgerblue;
+}
+#information{
+    background: honeydew, dodgerblue;
+
+}
+.name1{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Sac;
+    font-style: italic;
+    font-size: 50px; 
+    color: rgb(33, 183, 194);
+}
+.name{
+    text-align: center;
+    font-family: Mons;
+    font-size: 60px; 
+    color: rgb(11, 11, 14);
+}
+.get{
+    text-align: center;
+    font-family: Sac;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(33, 183, 194);
+}
+.next{
+    text-align: center;
+    font-family: Mons;
+    font-size: 3em;  
+}
+.greet{
+    text-align: center;
+    font-family: Sac;
+    font-size: 70px;
+    font-style: italic;
+    color: lightseagreen;
+}
+#head{
+    background-color: dodgerblue;
+}
+.bio-list{
+    text-align: center;
+    
+    
+}
+li{
+    font-family: MM;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#information{
+    background: honeydew, dodgerblue;
+}
+.footer{
+    clear: both;
+    background-color: dodgerblue;
+}
+#foottxt{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.info2{
+    text-align: center;
+    font-family: Merri;
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+.btncontact:hover{
+    background-color: blue;
+    color: white;
+}
+#sun{
+    margin-top: 30px;
+    position: relative;
+    left: 15%;
+    height: 150px;
+    width: 150px;
+}
